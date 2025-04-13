@@ -1,0 +1,16 @@
+# Ambiente virtual
+.venv/
+
+# Arquivos temporários
+__pycache__/
+*.py[cod]
+*.log
+
+# Arquivos de dados grandes
+*.csv
+*.xlsx
+*.parquet
+
+# Configurações de IDE
+.vscode/
+.idea/
