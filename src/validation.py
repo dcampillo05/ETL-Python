@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
 
-class User(BaseModel): #Inserir as suas colunas, tipos e a descrição
+class sheetVendas(BaseModel): #Inserir as suas colunas, tipos e a descrição
     Organizador: int = Field(..., description="Identificador do organizador")
     Ano_Mes: str = Field(..., description="Ano e mês do registro")
     Dia_da_Semana: str = Field(..., description="Dia da semana correspondente à data")
